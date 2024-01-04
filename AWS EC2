@@ -1,0 +1,27 @@
+Amazon Elastic Compute Cloud (EC2) is a web service offered by Amazon Web Services (AWS) that provides resizable compute capacity in the cloud. Here's an overview:
+
+1. **Instances:** EC2 instances are virtual servers in the cloud. You can choose from various instance types based on your application requirements, such as compute, memory, storage, and networking capacity.
+
+2. **AMI (Amazon Machine Image):** AMIs are pre-configured templates for EC2 instances, including the operating system and other software. You can use AWS-provided AMIs or create your own.
+
+3. **Instance Types:** EC2 instances come in different types, optimized for different use cases. These include General Purpose, Compute Optimized, Memory Optimized, Storage Optimized, and GPU instances.
+
+4. **Security Groups:** Security Groups act as virtual firewalls for your instances. You can define rules to control incoming and outgoing traffic to your instances.
+
+5. **Key Pairs:** EC2 instances are typically accessed using SSH (Linux) or RDP (Windows). Key pairs provide secure access to instances. You need to specify a key pair when launching an instance.
+
+6. **Elastic Load Balancing (ELB):** ELB distributes incoming application traffic across multiple instances to ensure no single instance bears too much load. This enhances the fault tolerance of your application.
+
+7. **Auto Scaling:** Auto Scaling allows you to automatically adjust the number of EC2 instances in your fleet based on demand or a predefined schedule.
+
+8. **Elastic Block Store (EBS):** EBS provides persistent block-level storage volumes for use with EC2 instances. You can attach and detach these volumes from instances as needed.
+
+9. **Regions and Availability Zones:** EC2 instances can be launched in different geographic regions and availability zones, providing redundancy and fault tolerance.
+
+10. **Reserved Instances and Spot Instances:** You can choose between On-Demand Instances, Reserved Instances (for a significant cost saving commitment), and Spot Instances (for temporary, flexible workloads at lower costs).
+
+11. **IAM Roles:** Identity and Access Management (IAM) roles can be associated with EC2 instances, providing secure access to AWS resources without the need for storing credentials on the instance.
+
+12. **Instance Metadata:** EC2 instances have metadata associated with them, providing information such as instance ID, public IP, and more. This metadata is accessible from within the instance.
+
+EC2 is a versatile and fundamental service in AWS, playing a crucial role in hosting a wide range of applications and workloads in the cloud.
